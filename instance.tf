@@ -1,5 +1,5 @@
 resource "aws_instance" "python" {
-  ami           = "ami-07761f3ae34c4478d"
+  ami           = "ami-0d7a109bf30624c99"
   instance_type = "t2.micro"
 
   key_name                    = "pyt-1"
